@@ -1,0 +1,122 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    text-decoration:none;
+}
+
+html{
+    font-family: 'Comfortaa', cursive;
+    font-weight: 900;
+    min-width: 700px;
+}
+
+body{
+    background: #ffffff;
+}
+
+h1{
+    transform: translate(0,-350px);
+    color: white;
+    font-size: 3em;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+}
+
+h2{
+    margin-top:20px;
+    color: rgb(70, 70, 70);
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+}
+
+.container{
+
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    display:inline;
+}
+
+.principal{
+    transform: translate(0,-150px);
+}
+
+button{
+    transform: translate(0,-300px);
+    border:0px;
+    border-radius: 5px;
+    margin:20px;
+    padding:10px 20px;
+    font-size: 1.5em;
+    background: orangered;
+    color: white;
+    box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+button:hover{
+    background: rgb(211, 92, 48);
+    transform: scale(1.05);
+    transform: translate(0,-305px);
+}
+
+button:focus{
+    background: rgb(4, 60, 0);
+    transform: scale(1.07);
+    transform: translate(0,-305px);
+}
+
+button:active{
+    color: blue;
+    background: rgb(4, 60, 0);
+    transform: scale(1.07);
+    transform: translate(0,-305px);
+}
+
+ul{
+    margin:20px;
+    padding:20px;
+    text-align:center;
+    list-style:none;
+    width:100vw;
+    display:flex;
+}
+
+li{
+    margin:20px;
+    padding:20px;
+    text-align: justify;
+}
+
+.cards{
+    width:100%;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows:1fr;
+    column-gap:25%;
+    row-gap:150px;
+    /* border:5px solid black; */
+
+}
+
+.card{
+    display:grid;
+    background: #fff;
+    /* border:5px solid black; */
+}
+
+img {
+    object-fit: cover;
+    width:100%;
+}
+
+/* .card img{
+    object-fit: cover;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+} */
